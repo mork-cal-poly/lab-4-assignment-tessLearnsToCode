@@ -16,7 +16,7 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background('cadetblue');
   
   //foreground
   drawTree(0, 0, 0);
@@ -221,6 +221,8 @@ function drawTree(x, y, rot) {
 }
 
 function drawNest(x, y, s, rot) {
+
+  noStroke();
 
   push();
     translate(x, y);
